@@ -1,6 +1,6 @@
 from django.contrib import admin
-from .models import AccessLogModel
+from introduce.models import AccessLog
 
 # Register your models here.
-admin.site.register(AccessLogModel)
+admin.site.register(AccessLog)
 # Register your models here.
