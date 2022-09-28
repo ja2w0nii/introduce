@@ -40,6 +40,7 @@ INSTALLED_APPS = [
 
     #쪽지시험_소개 페이지
     'introduce',
+    'customuser',
 ]
 
 MIDDLEWARE = [
@@ -127,5 +128,5 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
-
+AUTH_USER_MODEL = 'customuser.CustomModel'
 
